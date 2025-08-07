@@ -26,8 +26,6 @@
 2. **Make sure the script is readable:**  
 chmod +r set-alias.sh
 
-text
-
 3. **(Optional) Add your custom binaries:**  
 If you use custom `kubectl` or `helm` binaries (like `oc` or `helm3`), note their absolute paths.
 
@@ -41,8 +39,6 @@ By default, aliases are stored in `.k8s_aliases` in the current directory when s
 > **Important:** Always **source** the script rather than executing it, so environment variables and aliases are set in your current shell session.
 
 source /path/to/set-alias.sh [options]
-
-text
 
 ### Common Commands
 

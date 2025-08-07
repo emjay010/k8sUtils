@@ -68,7 +68,7 @@ Set namespaces (aliases reload automatically)
 source set-alias.sh -n production
 
 Set custom binaries for kubectl and helm
-source set-alias.sh -b /root/ncs/exec/kubectl /root/ncs/exec/helm3
+source set-alias.sh -b /root/exec/kubectl /root/exec/helm3
 
 Add a custom alias
 source set-alias.sh -a kgsw "kubectl get svc -o wide" "Get wide services"
